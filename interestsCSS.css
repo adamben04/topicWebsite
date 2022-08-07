@@ -12,32 +12,21 @@ html, body{
     background-color: wheat;
 }
 
+
 body{
     font-family: Helvetica;
     font-size: 18px;
 }
 
-
-
 h1{
     font-weight: 200 bolder;
 }
 
-
 img{
-    width:50%;
     height: 500px;
     object-fit: cover;
-    border: 15px groove snow;
 }
 
-/* .text-color-green {
-    color: green;
-}
-
-.background-color-yellow{
-    color: yellow;
-} */
 /*NAV BAR*/
 
 #site_title{
@@ -64,7 +53,7 @@ img{
     display: block;
     padding: 1em;
     color: antiquewhite;
-    transition: all 0.3s;
+    transition: all 0.2s;
 }
 
 #top-nav ul li a:hover{
@@ -79,6 +68,20 @@ main{
     max-width: 1400px;  
     margin: 0 auto;
 }  
+
+.fceests{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+
+}
+
+p{
+    text-align: center;
+    color:black;
+    font-style: italic;
+    content: icon;
+}
 
 /* FOOTER */
 
@@ -126,23 +129,24 @@ footer #social ul li a{
     background-color: antiquewhite;
 }
 
-.center {
+    img, .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
     display:flex;
     justify-content:center;
     align-items: center ;
-    /* padding: 15px; */    
 }
 
-p{
-    text-align: center;
-    color:black;
-    font-style: italic;
-    content: icon;
-}
 img{
-    margin: 20px 0px;
+    width: 100%;
+    border: 15px groove snow;
+}
+.center{
+    margin: auto;
+    padding: 10px;
+}
+
+img, p{
+    margin: 30px 0;
 }
